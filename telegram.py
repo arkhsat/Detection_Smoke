@@ -6,10 +6,6 @@ import threading
 BOT_TOKEN = "Tokenbot"
 bot = telebot.TeleBot(BOT_TOKEN)
 
-# @bot.message_handler(commands=['start', 'hello'])
-# def send_welcome(message):
-#     bot.reply_to(message, "Howdy, how are you doing?")
-
 
 def send_warning():
     chat_id = "chatid"
@@ -40,11 +36,6 @@ def send_warning():
     else:
         bot.send_message(chat_id, "❌ Tidak ada data pelanggaran.")
 
-
-# Misalnya kamu ingin mengirimkan warning via perintah
-# @bot.message_handler(commands=['warning'])
-# def handle_warning(message):
-#     send_warning()
 
 def start_polling():
     bot.polling()
