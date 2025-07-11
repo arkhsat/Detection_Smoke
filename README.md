@@ -3,7 +3,7 @@ This repository hosts a real-time system designed to detect smoking violations i
 
 ## ✨ Features
 - **Comprehensive Violation Detection: Integrates both smoke detection and smoking gesture recognition to accurately identify smoking violations.
-- **Real-time Smoke Detection: Utilizes advanced deep learning models (YOLOv8) to detect smoke in video streams or image inputs.
+**Real-time Smoke Detection: Utilizes advanced deep learning models (YOLOv8) to detect smoke in video streams or image inputs.
 - **Smoking Gesture Detection via Pose Estimation: Employs pose estimation techniques to identify specific human gestures associated with smoking, enhancing detection accuracy and reducing false positives.
 - **YOLOv8 Integration: Seamlessly integrates with the powerful YOLOv8 object detection framework for efficient and accurate detection of smoke and potentially other relevant objects.
 - **SQLite Database Logging: Automatically logs detected smoking events, gestures, and potential violations into a local SQLite database (violations.db).
