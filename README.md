@@ -73,5 +73,7 @@ Before running the application, you'll need to configure your Telegram bot token
 - **footage/: A directory for storing video files to be used for testing the detection system.**
 - **.idea/: (Usually ignored) Contains configuration files for PyCharm or IntelliJ IDEA.**
 
+---
+
 ### 📞 Contact
-For any questions or inquiries, please open an issue on this repository or contact [arkhananta37@gmail.com].
+For any questions or inquiries, please open an issue on this repository or contact [arkhananta27@gmail.com].
