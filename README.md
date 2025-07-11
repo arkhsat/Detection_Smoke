@@ -55,23 +55,23 @@ Before running the application, you'll need to configure your Telegram bot token
 1. ** 🔐 Telegram Bot Setup:**
    - **Create a new bot via BotFather on Telegram and obtain your Bot Token.**
    - **Start a chat with your bot and then find your Chat ID (you can use a bot like @userinfobot to get your chat ID).**
-   - **Open telegram.py (or the relevant script where Telegram API is used) and replace placeholders with your actual Bot Token and Chat ID.**
+   - **Open `telegram.py` (or the relevant script where Telegram API is used) and replace placeholders with your actual Bot Token and Chat ID.**
      
 2. ** 🗃️ Database:**
-   The violations.db SQLite database will be created automatically if it doesn't exist when databases.py is initialized.
+   The `violations.db` SQLite database will be created automatically if it doesn't exist when databases.py is initialized.
 
 ---
 
 ### 📁 Project Structure
-- **mainwithtest.py: The primary script for running the smoking violation detection system, potentially including testing functionalities.**
-- **newmain.py: An alternative or updated main script.**
-- **telegram.py: Handles sending notifications to Telegram.**
-- **databases.py: Manages interactions with the SQLite database (violations.db).**
-- **violations.db: The SQLite database file where detection logs are stored.**
-- **YOLO/: Contains configurations, weights, or scripts related to the YOLOv8 model.**
-- **PoseEstimation/: Contains code or models specifically for pose estimation, used for smoking gesture detection.**
-- **footage/: A directory for storing video files to be used for testing the detection system.**
-- **.idea/: (Usually ignored) Contains configuration files for PyCharm or IntelliJ IDEA.**
+- **`mainwithtest.py`: The primary script for running the smoking violation detection system, potentially including testing functionalities.**
+- **`newmain.py`: An alternative or updated main script.**
+- **`telegram.py`: Handles sending notifications to Telegram.**
+- **`databases.py`: Manages interactions with the SQLite database (violations.db).**
+- **`violations.db`: The SQLite database file where detection logs are stored.**
+- **`YOLO/`: Contains configurations, weights, or scripts related to the YOLOv8 model.**
+- **`PoseEstimation/`: Contains code or models specifically for pose estimation, used for smoking gesture detection.**
+- **`footage/`: A directory for storing video files to be used for testing the detection system.**
+- **`.idea/`: (Usually ignored) Contains configuration files for PyCharm or IntelliJ IDEA.**
 
 ---
 
