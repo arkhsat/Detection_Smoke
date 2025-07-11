@@ -47,17 +47,20 @@ It's highly recommended to create a requirements.txt file containing all necessa
 pip install ultralytics opencv-python python-telegram-bot
 ```
 (Note: ultralytics provides YOLOv8, opencv-python for video processing, and python-telegram-bot for notifications. You might need additional packages depending on your specific model and data handling.)
-
+ 
+---
 
 ## Configuration
 Before running the application, you'll need to configure your Telegram bot token and chat ID.
-1. **Telegram Bot Setup:**
+1. ** 🔐 Telegram Bot Setup:**
    - **Create a new bot via BotFather on Telegram and obtain your Bot Token.**
    - **Start a chat with your bot and then find your Chat ID (you can use a bot like @userinfobot to get your chat ID).**
    - **Open telegram.py (or the relevant script where Telegram API is used) and replace placeholders with your actual Bot Token and Chat ID.**
-3. **Database:**
+     
+2. ** 🗃️ Database:**
    The violations.db SQLite database will be created automatically if it doesn't exist when databases.py is initialized.
 
+---
 
 ### 📁 Project Structure
 - **mainwithtest.py: The primary script for running the smoking violation detection system, potentially including testing functionalities.**
