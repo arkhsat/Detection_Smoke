@@ -63,8 +63,7 @@ Before running the application, you'll need to configure your Telegram bot token
 ---
 
 ### 📁 Project Structure
-- **`mainwithtest.py`: The primary script for running the smoking violation detection system, potentially including testing functionalities.**
-- **`newmain.py`: An alternative or updated main script.**
+- **`main.py`: The primary script for running the smoking violation detection system, potentially including testing functionalities.**
 - **`telegram.py`: Handles sending notifications to Telegram.**
 - **`databases.py`: Manages interactions with the SQLite database (violations.db).**
 - **`violations.db`: The SQLite database file where detection logs are stored.**
